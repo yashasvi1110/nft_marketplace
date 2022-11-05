@@ -23,7 +23,7 @@ const pages = [
 
 const NavBar = () => {
   const { account } = useContext(Web3Context)
-  const logo = '🖼️'
+  const logo = '🦖 '
 
   return (
     <AppBar position="static">
