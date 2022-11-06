@@ -61,24 +61,4 @@ However, new deployed contract addresses can be updated on the frontend simply b
 
 _\* You'll need to create the envs on Vercel first_
 
-# Development Challenges
-
-- Updating NFT UI Cards after an action was performed
-- Dealing with [Metamask's accountsChanged event being fired twice on mobile](https://github.com/MetaMask/metamask-mobile/issues/2162)
-- Building a Web3 context provider
-- Debugging different problems that ended up causing "Estimate gas failed" errors\*
-
-_\* They're usually caused by incorrect contract addresses and wrong default gas values_
-
-## Mumbai marketplace setup command is breaking with a 'estimate gas failed' error
-
-Try changing `hardhat.config.js` mumbai gas values.  
-I'm using the ones I've found here:  
-https://forum.moralis.io/t/deploy-to-polygon-matic-mumbai-fails/700
-
-## Nouce is too high
-
-Reset your Metamask account transaction history.  
-Find out more on:  
-https://medium.com/@thelasthash/solved-nonce-too-high-error-with-metamask-and-hardhat-adc66f092cd
 
